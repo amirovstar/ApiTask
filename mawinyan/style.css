@@ -1,0 +1,79 @@
+
+body.sunny {
+    background-image: url('https://i.gifer.com/Iqt.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  body.cloudy {
+    background-image: url('https://i.gifer.com/srG.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  body.rainy {
+    background-image: url('https://i.gifer.com/Gler.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.snowy {
+    background-image: url('https://i.gifer.com/3Pm1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ 
+  body.default {
+    background-color: #f2f2f2;
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  #city-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  #search-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #image-container {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  #city-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #weather-data {
+    font-size: 20px;
+    margin: 0;
+  }
+  
